@@ -7,6 +7,7 @@ int main() {
    {
       move = x/i;
       remaining=x%i;
+      
       total_steps+=move;
 
 
