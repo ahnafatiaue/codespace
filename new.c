@@ -2,7 +2,7 @@
 
 int main() {
    int a,b,i,count=0,c,d,p=1,q=1,sum,e;
-   scanf("%d%d",&a,&b);
+   scanf("%d %d",&a,&b);
    for(i=a;i<=b;i++)
    {
     c = i;
@@ -32,7 +32,7 @@ int main() {
         }
     }
    }*/
-
+   }
 
 
     return 0;
