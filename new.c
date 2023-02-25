@@ -7,6 +7,8 @@ int main() {
    {
     c = i;
     d = i;
+    x=i;
+    y =i;
 
 
 
@@ -21,20 +23,25 @@ int main() {
     }
     while()
     {
-         remainder = num % 10;
-        reversed_num = reversed_num * 10 + remainder;
-        num /= 10; 
+
+        int  remainder = x % 10;
+       int  reversed_num = reversed_num * 10 + remainder;
+        x /= 10;
     }
     }
-    printf("%d %d",count , q);
-   /* if((c%10) == 1 && (d/q) == 1)
+
+    if((c%10) == 1 && (d/q) == 1)
     {
         if((sum*sum)%8=0)
         {
+            if(reversed_num == y)
+            {
+                printf("%d",y);
+            }
 
         }
     }
-   }*/
+   }
    }
 
 
