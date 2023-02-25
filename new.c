@@ -1,21 +1,12 @@
 #include <stdio.h>
 
 int main() {
-   int x,total_steps=0,remaining,move,i;
-   scanf("%d",&x);
-   for(i=1;i<=5;i++)
+   int a,b,;
+   scanf("%d%d",&a,&b);
+   for(i=a;i<=b;i++)
    {
-      move = x/i;
-      remaining=x%i;
-      
-      total_steps+=move;
-
-
+    
    }
-   printf("%d",total_steps);
-
-
-
 
 
 
