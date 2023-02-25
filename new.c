@@ -7,7 +7,7 @@ int main() {
    {
     c = i;
     d = i;
-    
+
 
 
     while(i!=0)
@@ -25,7 +25,10 @@ int main() {
     }
     if((c%10) == 1 && (d/q) == 1)
     {
-
+        if((sum*sum)%8=0)
+        {
+            
+        }
     }
    }
 
