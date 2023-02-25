@@ -12,8 +12,9 @@ int main() {
 
     while(i!=0)
     {
-        i/=10;
         
+        i/=10;
+
 
         count++; // count the digits
     }
