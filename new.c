@@ -5,9 +5,22 @@ int main() {
    scanf("%d",&x);
    a = x/5;
    remaining = x%5;
-
+ total_steps+=a;
+   a = remaining/4;
+   remaining%=4;
+    total_steps+=a;
+     a = remaining/3;
+   remaining%=3;
    total_steps+=a;
-   remaining/=4;
+    a = remaining/2;
+   remaining%=2;
+   total_steps+=a;
+    a = remaining/1;
+   remaining%=1;
+   total_steps+=a;
+   printf("%d",total_steps);
+
+
 
 
 
