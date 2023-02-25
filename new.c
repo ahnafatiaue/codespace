@@ -16,7 +16,7 @@ int main() {
    remaining%=2;
    total_steps+=a;
     a = remaining/1;
-   remaining%=1;     gcc new.c -o a; ./a
+   remaining%=1;    
    total_steps+=a;
    printf("%d",total_steps);
 
