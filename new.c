@@ -16,7 +16,7 @@ int main() {
 
 
 
-//gcc new.c -o a; ./a
+
 
     return 0;
 }
