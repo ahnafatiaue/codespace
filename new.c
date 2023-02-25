@@ -19,9 +19,12 @@ int main() {
 
         count++; // count the digits
     }
-    while(p<count)
+    while()
     {
-        q*=10;
+         remainder = num % 10;
+        reversed_num = reversed_num * 10 + remainder;
+        num /= 10; 
+    }
     }
     printf("%d %d",count , q);
    /* if((c%10) == 1 && (d/q) == 1)
