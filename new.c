@@ -7,12 +7,13 @@ int main() {
    {
     c = i;
     d = i;
-    e=i;
+    
 
 
     while(i!=0)
     {
-        
+        e=i%10;
+        sum+=e;
         i/=10;
 
 
